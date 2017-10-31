@@ -2,7 +2,7 @@
   "name": "for-the-boys",
   "version": "0.1.0",
   "private": true,
-  "homepage": "michaelnyu.me/for-the-boys",
+  "homepage": "http://michaelnyu.me/for-the-boys",
   "devDependencies": {
     "gh-pages": "^1.0.0",
     "react-scripts": "0.6.1"
