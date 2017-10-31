@@ -2,7 +2,7 @@
   "name": "for-the-boys",
   "version": "0.1.0",
   "private": true,
-  "homepage": "fortheboys.fun",
+  // "homepage": "fortheboys.fun",
   "devDependencies": {
     "react-scripts": "0.6.1"
   },
