@@ -38,3 +38,8 @@ textarea{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+#tweet{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+}

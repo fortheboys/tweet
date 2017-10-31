@@ -66,7 +66,9 @@ class Typer extends React.Component {
         <br />
         <textarea rows="10" value={this.getText()} readOnly="true"></textarea>
         <br />
-        <a href={"https://twitter.com/intent/tweet?text=" + this.getText() } >Tweet</a>
+        <a id="tweet" href={"https://twitter.com/intent/tweet?text=" + this.getText() } >Tweet</a>
+        <br />
+        <p>created by <a href="michaelnyu.me">Michael Yu</a></p>
       </div>
     )
   }
