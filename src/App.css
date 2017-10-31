@@ -1,0 +1,40 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+input, textarea, select{
+	width: 70%;
+	border-radius: 5px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+
+select{
+	height: 30px;
+	margin: 10px 0px 10px 0px;
+	border: 1px solid black;
+}
+
+input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus{
+	outline-width: 0px;
+}
+
+input{
+	height: 20px;
+    border: 1px solid black;
+    margin: 4px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+textarea{
+	padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
