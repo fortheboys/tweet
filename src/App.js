@@ -46,7 +46,8 @@ class Typer extends React.Component {
   }
 
   getText(){
-    return this.state.text + this.state.postfix;
+    return this.state.text + this.state.postfix
+
   }
 
   render () {
@@ -66,7 +67,7 @@ class Typer extends React.Component {
         <br />
         <textarea rows="10" value={this.getText()} readOnly="true"></textarea>
         <br />
-        <a id="tweet" href={"https://twitter.com/intent/tweet?text=" + this.getText() } >Tweet</a>
+        <a id="tweet" href={"https://twitter.com/intent/tweet?text=" + this.getText() +"&url=http%3A%2F%2Fmichaelnyu.me%2Ffor-the-boys%2F"} >Tweet</a>
         <br />
         <p>created by <a href="michaelnyu.me">Michael Yu</a></p>
       </div>
