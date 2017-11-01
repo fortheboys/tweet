@@ -69,7 +69,7 @@ class Typer extends React.Component {
         <br />
         <a id="tweet" href={"https://twitter.com/intent/tweet?text=" + this.getText() +"    by: http%3A%2F%2Ffortheboys.fun%2Ftweet%2F"} >Tweet</a>
         <br />
-        <p>created by <a href="michaelnyu.me">Michael Yu</a></p>
+        <p>created by <a href="http://michaelnyu.me" target="_blank">Michael Yu</a></p>
       </div>
     )
   }
